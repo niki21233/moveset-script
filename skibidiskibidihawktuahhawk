@@ -51,6 +51,14 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "hakari ",
+   Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/niki21233/baldytohakari/refs/heads/main/baldytohakari"))();
+   end,
+})
+
+
 local Tab = Window:CreateTab("add on's", 4483362458) -- Title, Image
 
 
