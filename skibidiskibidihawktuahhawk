@@ -38,9 +38,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "gojo v2 ",
+   Name = "gojo v3 (finaly)",
    Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/niki21233/saitamatogojo/refs/heads/main/saitamatogojo2012"))();
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/niki21233/gojo-v3/refs/heads/main/gojov3"))();
    end,
 })
 
