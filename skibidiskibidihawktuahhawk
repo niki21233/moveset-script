@@ -70,12 +70,7 @@ local Tab = Window:CreateTab("add on's", 4483362458) -- Title, Image
 
 
 
-local Button = Tab:CreateButton({
-   Name = "Phantasm",
-   Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrainz/main/main/Phantasm-Loader.lua"))()
-   end,
-})
+
 
 
 local Button = Tab:CreateButton({
