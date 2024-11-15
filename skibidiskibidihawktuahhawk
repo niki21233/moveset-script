@@ -38,6 +38,14 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "sonic to toji moveset",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/niki21233/toji-sonic/refs/heads/main/sonictotoji2007"))();
+   end,
+})
+
+
+local Button = Tab:CreateButton({
    Name = "gojo v3 (finaly)",
    Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/niki21233/gojo-v3/refs/heads/main/gojov3"))();
